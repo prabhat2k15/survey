@@ -15,7 +15,7 @@
 - cp .env.example .env
 - php artisan key:generate
 - configure your mysql credential in .env file
-- import .sql file
+- import survey.sql file in your local database
 - grant permission to storage directory #chmod -r 777 storage/ 
 
 
